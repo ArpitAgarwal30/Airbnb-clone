@@ -1,0 +1,52 @@
+.banner{
+    background: url("https://m.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/03/21/Pictures/_a609859c-2cc2-11e8-a5fc-524b5b61153f.jpg")center right;
+    height: 60vh;
+    position: relative;    
+    /* width: 100%; */
+    /* object-fit: contain; */
+}
+
+.banner__info{
+    background-color: black;
+    color: white;
+    padding-top: 25vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+} 
+
+.banner__info > button{
+    background-color: #ff7779;
+    color: white; 
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+.banner__search{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__info > button:hover{
+    background-color:white ;
+    color: #ff7779;
+}
+
+.banner__info > h5{
+    margin-top: 10px;
+    /* font-weight: lighter; */
+    font-weight: normal;
+}
+
+/* .banner__info > h1{
+    margin-top: -60px;
+} */
